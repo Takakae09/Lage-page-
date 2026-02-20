@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color:#000000;
+}
+
+h1,h2 {
+    color:#FFD700;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.texto{
+    color: #FFD700;
+}
+
+#Menu {
+display: flex;
+list-style: none;
+gap: 50px;
+padding: 20px;
+color:#FFD700;
+background-color: #202221;
+
+}
+
+
+
+#Menu2 i {
+    color: white; /* Cor do ícone */
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    cursor: pointer;
+    display: flex;
+    margin-left: 1500%   
+}
+
+
+#Menu2 i:hover {
+    color: gold; /* Muda de cor quando passa o mouse! */
+}
+
+
+/* botão */
+
+.botao{
+    border-radius:20px;
+    color: white;
+    background-color: #FFD700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.botao:hover {
+    color:black;
+}
+
+
+
+
+#rodape {
+    background-color: #202221; /* Cinza bem escuro para diferenciar do corpo */
+    color: white;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+    border-top: 3px solid #FFD700; /* Linha amarela no topo do rodapé */
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para funcionar bem no celular */
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.rodape-container h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.sociais a {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.sociais a:hover {
+    color: #FFD700; /* Fica amarelo ao passar o mouse */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    color: #888;
+}
